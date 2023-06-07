@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
         <a href="" target="_blank" class="logo">
             <img src="" alt="">
@@ -16,8 +17,7 @@
         </a>  
         <nav> <!-- esto es un bloque -->
             <a href="" class="nav-link">Cultivos</a>
-            <a href="" class="nav-link">Riego</a>
-            <a href="" class="nav-link">Busqueda</a>
+            <a href="" class="nav-link">Búsqueda</a>
             <a href="" class="nav-link">Perfil</a>
         </nav> <!-- esto es un bloque -->
     </header>
@@ -26,24 +26,32 @@
         <h3 class="parrafo1">Elije tu cultivo para más información
         </h3>
         <p class="parrafo2">Cada cultivo 
-            seleccionado mostrata el estado 
+            seleccionado mostrará el estado 
             de este incluyendo información como la humedad, 
             el tipo de planta y el sistema de riego necesario, acciones recomendadas</p>
     </article>
 
-    <div class="jitomate">
-        <span class="titu">jitomates</span>
-        <div class="imagen1">
-            <a href=""><img src="image/jitomates.png" alt="planta" class="planta" ></a>  
-        </div>
-    </div>
-
-    <div class="fresa">
-        <span class="titu2">fresas</span>
-        <div class="imagen2">
-            <a href=""><img src="image/fresa.png" alt="planta2" class="planta2" ></a>  
-        </div>
-    </div>
-
+    <main>
+        <ul class="cultivos">
+            <li>
+                <a href="">
+                <img src="image/fresa.png" alt="fresa">
+                <h2>Fresas</h2>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="image/jitomates.png" alt="tomates">
+                <h2>Tomates</h2>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="image/mas.png" alt="agregar">
+                <h2>nuevo</h2>
+                </a>
+            </li>
+        </ul>
+    </main>
 </body>
 </html>
